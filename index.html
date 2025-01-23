@@ -18,13 +18,13 @@
 </head>
 <body>
   <div> 
-    <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen></iframe>
+    <iframe id="myframe" class="responsive-iframe" src=""https://script.google.com/macros/s/AKfycbyjs9nPHxx1bRFgAj49TZGeg4nGUlaiaSG1q_Sro1e8j413dm3jtvSHVr15HXOa14pU/exec"></iframe>
   </div>
   <script>
     const apps = new URL(window.location);
     const formUrl = apps.searchParams.get('apps');
     const url = decodeURIComponent(formUrl)
-          document.getElementById('https://script.google.com/macros/s/AKfycbyjs9nPHxx1bRFgAj49TZGeg4nGUlaiaSG1q_Sro1e8j413dm3jtvSHVr15HXOa14pU/exec').src = url
+          document.getElementById('myframe').src = url
   </script>
 </body>
 </html>
